@@ -1,0 +1,189 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)1%,rgba(0,0,0,0.5)1%),url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 400px;
+    float: left;
+    height: 120px;
+}
+.logo{
+    margin: 2%;
+    color:orange;
+    font-size: 50px;
+    font-family: monospace;
+    padding-top: 10px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 22px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+
+}
+ul li a:hover{
+    color:rgb(82, 201, 58);
+
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 470px;
+}
+.srch{
+    font-family:cursive;
+    width: 230px;
+    height: 25px;
+    /* background: transparent; */
+    border: 1.5px solid rgb(46, 206, 46);
+    margin-top: 13px;
+    color:black;
+    border-right: none;
+    font-size: 14px;
+    float: right;
+    padding: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn{
+    width:100px;
+    height: 20px;
+    background: rgb(68, 236, 172);
+    border: 2px;
+    float:right;
+    margin-top: 1px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.srch:focus{
+    outline: rgb(224, 203, 15);
+}
+.content{
+    width: 800px;
+    position: relative;
+}
+p.wel{
+    padding-left: 20px;
+    font-family: cursive;
+    color:white;
+    letter-spacing: 1.2px;
+}
+h2.let{
+    color: aqua;
+}
+button.cn{
+    width: 100px;
+    height: 40px;
+    background:red;
+    border: rgb(23, 236, 112);
+    margin-top: 20px;
+    margin-left: 440px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button.cn a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+    font-size: 16px;
+    font-family: monospace;
+}
+.cn:hover{
+    background-color:black;
+}
+.form{
+    margin-top: 220px;
+    margin-left: 80px;
+    width: 300px;
+    height: 350px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.8)80%,rgba(0, 0, 0, 0.8)80%);
+    border-radius: 10px;
+}
+.form h3{
+    width: 240px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-left: 26px;
+    padding: 6px;
+
+}
+.form input{
+    width:240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-left: 32px;
+    font-family: sans-serif;
+
+}
+button.btng{
+    width:200px;
+    height: 30px;
+    background: rgb(5, 236, 24);
+    border: 2px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 45px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+button.btng a{
+    text-decoration: none;
+    font-size: 20px;
+}
+p.link{
+    margin-top: 4px;
+    margin-left: 55px;
+    color: red;
+}
+.form a.su{
+    margin-top: 15px;
+    margin-left: 95px;
+    color:green;
+}
+.form a.su:hover{
+    color: white;
+
+}
+.btng:hover{
+    background-color:white;
+}
